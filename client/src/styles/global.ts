@@ -29,7 +29,8 @@ const GlobalStyles = createGlobalStyle`
        url('/fonts/poppins-v20-latin-600.woff2') format('woff2'),
 }
   * {
-    margin: 0;
+    max-width: 77rem;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
