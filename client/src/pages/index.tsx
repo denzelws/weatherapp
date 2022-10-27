@@ -5,6 +5,7 @@ import theme from 'styles/theme'
 import GlobalStyles from 'styles/global'
 import TopButtons from 'components/TopButtons'
 import Input from 'components/Input'
+import CurrentDate from 'components/CurrentDate'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <div>
         <TopButtons />
         <Input />
+        <CurrentDate />
       </div>
     </ThemeProvider>
   )
