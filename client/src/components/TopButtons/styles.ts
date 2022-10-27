@@ -14,6 +14,7 @@ export const Wrapper = styled.main`
 export const City = styled.h2`
   ${({ theme }) => css`
     color: ${theme.colors.white};
+    cursor: pointer;
     font-size: ${theme.font.sizes.small};
     font-weight: ${theme.font.bold};
   `}
