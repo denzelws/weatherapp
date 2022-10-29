@@ -53,6 +53,21 @@ export const Items = styled.div`
     }
   `}
 `
+
+export const ItemsLow = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > svg {
+      width: 2rem;
+      color: ${theme.colors.white};
+      margin-right: 0.4rem;
+    }
+  `}
+`
+
 export const FeelTemp = styled.span`
   ${({ theme }) => css`
     color: ${theme.colors.white};
@@ -74,4 +89,13 @@ export const AditionalDetails = styled.div`
   `}
 `
 
-export const Hour = styled.span``
+export const InfoBar = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    align-items: center;
+    color: ${theme.colors.white};
+    font-size: ${theme.font.sizes.small};
+    font-weight: ${theme.font.bold};
+    padding: ${theme.spacings.xsmall} 0;
+  `}
+`
