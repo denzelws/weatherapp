@@ -1,10 +1,6 @@
 import styled, { css } from 'styled-components'
 
-export const Wrapper = styled.main`
-  ${({ theme }) => css`
-    background: rgb(0, 151, 167);
-  `}
-`
+export const Wrapper = styled.main``
 
 export const Detail = styled.h3`
   ${({ theme }) => css`
@@ -93,6 +89,7 @@ export const InfoBar = styled.div`
   ${({ theme }) => css`
     display: flex;
     align-items: center;
+    justify-content: center;
     color: ${theme.colors.white};
     font-size: ${theme.font.sizes.small};
     font-weight: ${theme.font.bold};

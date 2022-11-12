@@ -5,10 +5,8 @@ export const Wrapper = styled.main`
     display: flex;
     padding: ${theme.spacings.xsmall};
     align-items: center;
-    justify-content: center;
-    background: rgb(0, 151, 167);
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
-      0 8px 10px -6px rgb(0 0 0 / 0.1);
+    justify-content: space-between;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
   `}
 `
 export const City = styled.h2`

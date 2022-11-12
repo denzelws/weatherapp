@@ -5,7 +5,6 @@ export const Wrapper = styled.main`
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: rgb(0, 151, 167);
     padding: ${theme.spacings.xxsmall} 0;
   `}
 `

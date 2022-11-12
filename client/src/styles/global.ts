@@ -29,12 +29,16 @@ const GlobalStyles = createGlobalStyle`
        url('/fonts/poppins-v20-latin-600.woff2') format('woff2'),
 }
   * {
-    max-width: 77rem;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    &::before,
+    &::after {
+      box-sizing: inherit;
+    }
   }
 
   ${({ theme }) => css`
