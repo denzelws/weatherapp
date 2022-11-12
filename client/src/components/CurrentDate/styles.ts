@@ -13,6 +13,7 @@ export const DateInformation = styled.div``
 
 export const Date = styled.h3`
   ${({ theme }) => css`
+    margin-top: ${theme.spacings.xsmall};
     color: ${theme.colors.white};
     font-weight: ${theme.font.light};
   `}

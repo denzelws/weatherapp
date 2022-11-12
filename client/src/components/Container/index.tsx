@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 
 export const Container = styled.div`
   ${({ theme }) => css`
-    background: rgb(0, 151, 167);
+    background-color: #0487fa;
     max-width: ${theme.grid.container};
     margin-left: auto;
     margin-right: auto;

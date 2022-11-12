@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components'
 export const Wrapper = styled.main`
   ${({ theme }) => css`
     display: flex;
+    margin-bottom: ${theme.spacings.xsmall};
     padding: ${theme.spacings.xsmall};
     align-items: center;
     justify-content: space-between;

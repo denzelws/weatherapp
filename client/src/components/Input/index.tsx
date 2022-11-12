@@ -8,6 +8,7 @@ const Input = () => {
     <S.Wrapper>
       <S.Information>
         <S.Input type="text" placeholder="Insira o nome..." />
+
         <SearchIcon />
         <LocationIcon />
       </S.Information>
